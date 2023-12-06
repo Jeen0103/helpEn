@@ -83,6 +83,7 @@ else {
 		</div>
 	</div>
 	<br/>
+	
 	<form name="selectCtr" method="post" class="probootstrap-form">
 		<div class="mb-3">
 		  <label for="exampleFormControlTextarea1" class="form-label">작문한글</label>
@@ -107,16 +108,24 @@ else {
 		  <label for="exampleFormControlTextarea1" class="form-label">작문영어</label>
 		  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 		</div>
-		<button type="button" class="btn btn-primary">Primary</button>
-		<button type="button" class="btn btn-secondary">Secondary</button>
-		<button type="button" class="btn btn-success">Success</button>
-		<button type="button" class="btn btn-danger">Danger</button>
-		<button type="button" class="btn btn-warning">Warning</button>
-		<button type="button" class="btn btn-info">Info</button>
-		<button type="button" class="btn btn-light">Light</button>
-		<button type="button" class="btn btn-dark">Dark</button>
-	</form>
-</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+			  <label class="form-check-label" for="flexCheckChecked">
+			    힌트 :
+			  </label>
+		</div>
+		<br/>
+		<button type="button" class="btn btn-primary">New One</button>
+		<button type="button" class="btn btn-secondary">Try Again</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button type="button" class="btn btn-success">Answer</button>
+		<button type="button" class="btn btn-danger">Hide Answer</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button type="button" class="btn btn-warning">Speech Ko</button>
+		<button type="button" class="btn btn-info">Speech En</button>
+		<button type="button" class="btn btn-light">Stop Sound</button>
+    </form>
+  </div>
 </section>
 <!-- END sect -->
 
